@@ -17,10 +17,12 @@ const textInputs = [
   {
     label: 'Full name *',
     name: 'name',
+    type: 'text',
   },
   {
     label: 'Email address *',
     name: 'email',
+    type: 'email',
   },
 ];
 
@@ -119,7 +121,7 @@ const EditIntern = () => {
                 <label>{item.label}</label>
                 <fieldset>
                   <Field
-                    type="text"
+                    type={item.type}
                     id={item.name}
                     name={item.name}
                     className={
