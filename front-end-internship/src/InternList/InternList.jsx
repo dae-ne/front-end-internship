@@ -22,14 +22,15 @@ const InternList = () => {
   return (
     <Container title="Participants">
       <div className="list">
-        {interns.map((u) => (
-          <div className="list-item" key={u.id}>
-            {u.name}{' '}
-            <ButtonLink icon={EditIcon} to={`/interns/${u.id}`} space={10}>
-              Edit
-            </ButtonLink>
-          </div>
-        ))}
+        {interns &&
+          interns.map((u) => (
+            <div className="list-item" key={u.id}>
+              {u.name}{' '}
+              <ButtonLink icon={EditIcon} to={`/interns/${u.id}`} space={10}>
+                Edit
+              </ButtonLink>
+            </div>
+          ))}
       </div>
     </Container>
   );

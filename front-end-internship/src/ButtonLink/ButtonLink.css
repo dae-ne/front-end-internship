@@ -18,14 +18,6 @@
   position: relative;
 }
 
-.button-link.smaller img {
-  margin-right: 10px;
-}
-
-.button-link.bigger img {
-  margin-right: 12px;
-}
-
 .button-link:hover img {
   animation-name: arrow-animation;
   animation-duration: 1s;

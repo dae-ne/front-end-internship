@@ -11,7 +11,7 @@ import './EditIntern.css';
 const REQUIRED_ERROR_MESSAGE = 'This field is required';
 const EMAIL_ERROR_MESSAGE = 'This email is not valid';
 const DATE_ERROR_MESSAGE = 'This date is not correct';
-const REVERSED_TIME_ERROR_MESSAGE = 'Enter a date after intership start';
+const REVERSED_TIME_ERROR_MESSAGE = 'Enter a date after internship start';
 
 const textInputs = [
   {
@@ -26,11 +26,11 @@ const textInputs = [
 
 const dateInputs = [
   {
-    label: 'Intership start *',
+    label: 'Internship start *',
     name: 'internshipStart',
   },
   {
-    label: 'Intership end *',
+    label: 'Internship end *',
     name: 'internshipEnd',
   },
 ];
